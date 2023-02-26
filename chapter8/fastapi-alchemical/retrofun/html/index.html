@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>RetroFun Orders</title>
+    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+    <style>
+      body {
+        font-family: Sans-Serif;
+      }
+      td:nth-child(4) {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>RetroFun Orders</h1>
+      <hr>
+      <div id="table"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gridjs/6.0.6/gridjs.production.min.js"></script>
+    <script>
+      const baseUrl = '/api/orders';
+      const updateUrl = (prev, newQuery) => {
+        query = new URLSearchParams(prev.split('?')[1]);
+        for (const [key, value] of Object.entries(newQuery)) {
+          query.set(key, value);
+        }
+        return baseUrl + '?' + query.toString();
+      };
+
+      const grid = new gridjs.Grid({
+        columns: [
+          { id: 'timestamp', name: 'Date & Time', formatter: cell => {
+            return new Date(Date.parse(cell)).toLocaleString();
+          }},
+          { id: 'customer', name: 'Customer', formatter: (cell, row) => {
+            return gridjs.html(`<span title="${cell.address}\n${cell.phone}">${cell.name}</span>`);
+          }},
+          { id: 'order_items', name: 'Order', sort: false, formatter: cell => {
+            return gridjs.html(cell.map(
+              item => `${item.quantity} x <span title="${item.product.manufacturer.name}\n${
+                item.product.countries.map(c => c.name).join(', ')}">${
+                  item.product.name}</span> @ $${item.unit_price.toFixed(2)}`
+            ).join('<br>'));
+          }},
+          { id: 'total', name: 'Total', formatter: cell => {
+            return '$' + cell.toFixed(2);
+          }},
+          { id: 'id', name: 'ID', hidden: true },
+        ],
+        server: {
+          url: baseUrl,
+          then: results => results.data,
+          total: results => results.total,
+        },
+        search: {
+          enabled: true,
+          server: {
+            url: (prev, search) => {
+              return updateUrl(prev, {search});
+            },
+          },
+        },
+        sort: {
+          enabled: true,
+          multiColumn: true,
+          server: {
+            url: (prev, columns) => {
+              const columnIds = ['timestamp', 'customer', 'order_items', 'total'];
+              const sort = columns.map(col => (col.direction === 1 ? '+' : '-') + columnIds[col.index]);
+              return updateUrl(prev, {sort});
+            },
+          },
+        },
+        pagination: {
+          enabled: true,
+          server: {
+            url: (prev, page, limit) => {
+              return updateUrl(prev, {start: page * limit, length: limit});
+            },
+          },
+        },
+        resizable: true,
+      }).render(document.getElementById('table'));
+    </script>
+  </body>
+</html>

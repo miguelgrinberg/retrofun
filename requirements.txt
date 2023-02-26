@@ -1,0 +1,8 @@
+aiosqlite==0.18.0
+alembic==1.9.4
+greenlet==2.0.2
+Mako==1.2.4
+MarkupSafe==2.1.2
+python-dotenv==1.0.0
+SQLAlchemy==2.0.4
+typing_extensions==4.5.0

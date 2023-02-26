@@ -1,0 +1,150 @@
+country,manufacturer,name,cpu,year
+UK,Acorn Computers Ltd,Acorn Atom,6502,1980
+UK,Acorn Computers Ltd,BBC Micro,6502,1981
+UK,Acorn Computers Ltd,Electron,6502,1983
+UK,Acorn Computers Ltd,BBC Master,65SC12,1986
+UK,Acorn Computers Ltd,Acorn Archimedes,ARM RISC,1987
+UK,Acorn Computers Ltd,A7000,ARM RISC,1995
+UK,Amstrad,CPC 464,Z80,1984
+UK,Amstrad,CPC 664,Z80,1984
+UK,Amstrad,CPC 6128,Z80,1984
+UK,Amstrad,464 Plus,Z80,1990
+UK,Amstrad,6128 Plus,Z80,1990
+UK,Amstrad,PCW,Z80,1985
+UK,Amstrad,PC-1512,8086,1986
+China,Tsinghua University,CEC-I Zhonghua,6502,1986
+USA,"APF Electronics, Inc.",Imagination Machine,6800,1979
+USA,Apple Computer,Apple II,6502,1977
+USA,Apple Computer,Apple IIe,6502,1983
+USA,Apple Computer,Apple IIc,65C02,1984
+USA,Apple Computer,Apple IIc Plus,65C02,1988
+USA,Apple Computer,Apple II Plus,6502,1979
+USA,Apple Computer,Apple IIGS,65C816,1986
+UK,Apricot Computers,Apricot F1,8088,1984
+Netherlands,Aster Computers,CT-80,Z80,1982
+USA,"Atari, Inc.",Atari 400,6502,1979
+USA,"Atari, Inc.",Atari 800,6502,1979
+USA,"Atari, Inc.",Atari 1200XL,6502,1983
+USA,"Atari, Inc.",Atari 600XL,6502,1983
+USA,"Atari, Inc.",Atari 800XL,6502,1983
+USA,"Atari, Inc.",Atari 65XE,6502C,1985
+USA,"Atari, Inc.",Atari 130XE,6502C,1985
+USA,Atari Corporation,Atari ST,68000,1985
+USA,Atari Corporation,Atari TT,68030,1990
+USA,Atari Corporation,Falcon,68030 + 56001,1992
+USA,Bally Consumer Products,Bally Brain,Z80,1979
+USA,Bally Consumer Products,Bally Astrocade,Z80,1977
+Romania,Brasov Computer,CoBra,Z80,1986
+UK,Camputers,Lynx,Z80,1983
+USA,Coleco,Coleco Adam,Z80,1983
+USA,Commodore,PET,6502,1977
+USA,Commodore,VIC-20,6502,1980
+USA,Commodore,Commodore 64,6510,1982
+USA,Commodore,Commodore Executive 64,6510,1982
+USA,Commodore,MAX Machine,6510,1982
+USA,Commodore,Commodore 16,8501 (6502),1984
+USA,Commodore,Commodore 116,8501 (6502),1984
+USA,Commodore,Plus/4,8501 (6502),1984
+USA,Commodore,Commodore 128,8502 (6502) / Z80,1985
+USA,Commodore,Amiga,68000 (family),1985
+Hong Kong,Comx World Operations,Comx-35,RCA 1802,1983
+Belgium,Data Applications International,DAI Personal Computer,8080,1980
+Hong Kong,Vtech,VTech Laser 200,Z80,1985
+Hong Kong,EACA,Video Genie,Z80,1980
+Hong Kong,EACA,Colour Genie,Z80,1983
+Hong Kong,Rabbit,Rabbit RX83,Z80,1983
+Czechoslovakia,Didaktik,Alpha,Z80,1986
+Czechoslovakia,Didaktik,Beta,Z80,1986
+Czechoslovakia,Didaktik,Gama,Z80,1987
+UK,Dragon Data,Dragon 32,6809,1982
+UK,Dragon Data,Dragon 64,6809,1982
+USSR,Dubna,Dubna 48K,Z80 (compatible),1991
+USSR,Elektronika,BK-0010,PDP 11 (compatible),1985
+USSR,AGAT,AGAT-9,Native/Apple II compatible,1984
+Serbia,Elektronska Industrija Niš,Pecom 32,RCA 1802,1985
+Serbia,Elektronska Industrija Niš,Pecom 64,RCA 1802,1985
+USA,Exidy,Exidy Sorcerer,Z80,1978
+UK,Intelligent Software,Enterprise 64,Z80,1985
+UK,Intelligent Software,Enterprise 128,Z80,1985
+Hong Kong,Lambda Electronics,Lambda 8300,Z80,1985
+USA,Franklin Computer Corporation,Franklin ACE,6502,1982
+Japan,Fujitsu,FM Towns,80386SX,1989
+Japan,Fujitsu,FM-7,6809,1982
+UK,Grundy Business Systems,Grundy NewBrain,Z80,1982
+Brazil,Gradiente,Gradiente Expert,Z80,1985
+USA,Honeywell,Honeywell 316,DDP 16 Minicomputer,1969
+USA,IBM,PCjr,8088,1984
+USA,IBM,IBM PS/1,8088,1990
+USA,Interact,Interact Home Computer,8080,1979
+USA,Intelligent Systems Corporation,Compucolor II,8080,1977
+USSR,Intercompex,Hobbit,Z80 compatible,1990
+USSR,Iskra,Iskra-1030,8086 compatible,1989
+Croatia,Ivasim,Ivel Ultra,6502 compatible,1984
+Croatia,Ivasim,Ivel Z3,6502 compatible,1983
+UK,Jupiter Cantab,Jupiter ACE,Z80,1982
+Sweden,Luxor,ABC 80,Z80,1978
+USA,Mattel,Aquarius,Z80,1983
+France,Matra,Matra Alice,6803,1983
+UK,Memotech,MTX500,Z80,1983
+UK,Memotech,MTX512,Z80,1983
+UK,Memotech,RS128,Z80,1983
+Australia,Microbee Systems,MicroBee,Z80,1983
+Brazil,Comércio de Componentes Eletrônicos,CCE MC-1000,Z80,1985
+Brazil,Microdigital Eletronica,TK82C,Z80,1985
+UK,Miles Gordon Technology,SAM Coupé,Z80,1989
+Taiwan,Multitech,Microprofessor III,6502,1983
+Japan,NEC,NEC PC-100,8086,1983
+Japan,NEC Home Electronics,PC-6000,Z80,1981
+Japan,NEC,PC-8800,Z80,1981
+USA,Radio Shack,TRS-80 Color Computer,6809,1980
+USA,Radio Shack,TRS-80 Color Computer 2,6809,1980
+USA,Radio Shack,TRS-80 Color Computer 3,6809,1980
+USA,Radio Shack,TRS-80 Model I,Z80,1977
+USA,Radio Shack,TRS-80 MC-10,6803,1983
+USA,Radio Shack,Tandy 1000,8088,1987
+Germany,Schneider Computer Division,Euro PC,8088,1988
+UK,Tangerine Computer Systems,Oric 1,6502,1983
+UK,Tangerine Computer Systems,Oric Atmos,6502,1984
+UK,Tangerine Computer Systems,Oric Telestrat,6502,1986
+Croatia,PEL Varaždin,Galeb,6502,1981
+Croatia,PEL Varaždin,Orao,6502,1984
+Netherlands,Philips,P2000,Z80,1980
+Netherlands,Philips,G7480,Z80,1983
+Netherlands,Philips,Philips :YES,80186,1985
+Bulgaria,Pravetz,Pravetz 8,CM630 (6502 clone),1985
+Bulgaria,Pravetz,Pravetz 8D,6502,1982
+Bulgaria,Pravetz,IMKO-1,6502,1980
+New Zealand,Progeni Systems / Polycorp,Poly-1,6809,1981
+Brazil,Prológica,Prológica CP-400,6809,1984
+East Germany,VEB Robotron,KC 85,Z80 compatible,1984
+East Germany,VEB Robotron,KC 87,Z80 compatible,1987
+East Germany,VEB Robotron,Z1013,Z80 compatible,1985
+Japan,Sega,SC-3000,Z80 compatible,1983
+Japan,Sharp,MZ,Z80 compatible,1979
+Japan,Sharp,Sharp X1,Z80 compatible,1982
+Japan,Sharp,Sharp X68000,68000,1987
+UK,Sinclair Research,ZX80,Z80,1980
+UK,Sinclair Research,ZX81,Z80,1981
+UK,Sinclair Research,ZX Spectrum,Z80,1982
+UK,Sinclair Research,Sinclair QL,68008,1984
+Japan,Sord Computer Corporation,Sord M200 Smart Home Computer,Z80,1977
+Japan,Sord Computer Corporation,Sord M5,Z80,1982
+New Zealand,Technosys,Aamber Pegasus,6809,1984
+USA,Texas Instruments,TI-99/4,TMS 9900,1979
+USA,Texas Instruments,TI-99/4A,TMS 9900,1979
+Czechoslovakia,Tesla,PMD 85,8080,1985
+Czechoslovakia,Štátny majetok Závadka š.p.,MAŤO,8080,1989
+France,Thomson,TO7,6809,1982
+France,Thomson,MO5,6809,1984
+"USA/UK/Portugal",Timex Sinclair,Timex Sinclair 1000,Z80,1982
+"USA/UK/Portugal",Timex Sinclair,Timex Sinclair 1500,Z80,1982
+"USA/UK/Portugal",Timex Sinclair,Timex Sinclair 2048,Z80,1984
+Portugal,Timex Sinclair,Timex Computer 2048,Z80,1984
+"USA/UK/Portugal",Timex Sinclair,Timex Computer 2068,Z80,1983
+"Portugal/Poland",Timex Sinclair,Komputer 2086,Z80,1986
+Japan,Tomy,Tomy Tutor,TMS 9900,1986
+USSR,Vector,Vector-06C,8080 compatible,1987
+USA,Videobrain,VideoBrain Family Computer,Fairchild F8,1977
+Hungary,Videoton,TVC,Z80,1986
+Norway,West Computer AS,West PC-800,"6502, Z80",1984
+Belgium,GEM,GEM 1000,Z80,1985
