@@ -7,7 +7,7 @@ router = APIRouter()
 
 
 @router.get('/')
-def index():
+async def index():
     return FileResponse('retrofun/html/index.html')
 
 
