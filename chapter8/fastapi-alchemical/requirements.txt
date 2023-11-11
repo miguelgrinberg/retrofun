@@ -1,5 +1,5 @@
 aiosqlite==0.18.0
-alchemical==0.6.0
+alchemical==1.0.1
 alembic==1.9.4
 anyio==3.6.2
 click==8.1.3

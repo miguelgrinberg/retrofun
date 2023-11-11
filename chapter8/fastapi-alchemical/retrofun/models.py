@@ -4,13 +4,13 @@ from typing import Optional
 from uuid import UUID, uuid4
 import sqlalchemy as sa
 import sqlalchemy.orm as so
-from alchemical.aio import Alchemical
+from alchemical.aio import Model, Alchemical
 
 db = Alchemical(os.environ['DATABASE_URL'])
 
 ProductCountry = sa.Table(
     'products_countries',
-    db.Model.metadata,
+    Model.metadata,
     sa.Column('product_id', sa.ForeignKey('products.id'), primary_key=True,
               nullable=False),
     sa.Column('country_id', sa.ForeignKey('countries.id'), primary_key=True,
@@ -18,7 +18,7 @@ ProductCountry = sa.Table(
 )
 
 
-class Product(db.Model):
+class Product(Model):
     __tablename__ = 'products'
 
     id: so.Mapped[int] = so.mapped_column(primary_key=True)
@@ -54,7 +54,7 @@ class Product(db.Model):
         }
 
 
-class Manufacturer(db.Model):
+class Manufacturer(Model):
     __tablename__ = 'manufacturers'
 
     id: so.Mapped[int] = so.mapped_column(primary_key=True)
@@ -75,7 +75,7 @@ class Manufacturer(db.Model):
         }
 
 
-class Country(db.Model):
+class Country(Model):
     __tablename__ = 'countries'
 
     id: so.Mapped[int] = so.mapped_column(primary_key=True)
@@ -96,7 +96,7 @@ class Country(db.Model):
         }
 
 
-class Order(db.Model):
+class Order(Model):
     __tablename__ = 'orders'
 
     id: so.Mapped[UUID] = so.mapped_column(default=uuid4, primary_key=True)
@@ -122,7 +122,7 @@ class Order(db.Model):
         }
 
 
-class Customer(db.Model):
+class Customer(Model):
     __tablename__ = 'customers'
 
     id: so.Mapped[UUID] = so.mapped_column(default=uuid4, primary_key=True)
@@ -150,7 +150,7 @@ class Customer(db.Model):
         }
 
 
-class OrderItem(db.Model):
+class OrderItem(Model):
     __tablename__ = 'orders_items'
 
     product_id: so.Mapped[int] = so.mapped_column(
@@ -173,7 +173,7 @@ class OrderItem(db.Model):
         }
 
 
-class ProductReview(db.Model):
+class ProductReview(Model):
     __tablename__ = 'product_reviews'
 
     product_id: so.Mapped[int] = so.mapped_column(
@@ -191,7 +191,7 @@ class ProductReview(db.Model):
         lazy='joined', innerjoin=True, back_populates='product_reviews')
 
 
-class BlogArticle(db.Model):
+class BlogArticle(Model):
     __tablename__ = 'blog_articles'
 
     id: so.Mapped[int] = so.mapped_column(primary_key=True)
@@ -224,7 +224,7 @@ class BlogArticle(db.Model):
         return f'BlogArticle({self.id}, "{self.title}")'
 
 
-class BlogAuthor(db.Model):
+class BlogAuthor(Model):
     __tablename__ = 'blog_authors'
 
     id: so.Mapped[int] = so.mapped_column(primary_key=True)
@@ -237,7 +237,7 @@ class BlogAuthor(db.Model):
         return f'BlogAuthor({self.id}, "{self.name}")'
 
 
-class BlogUser(db.Model):
+class BlogUser(Model):
     __tablename__ = 'blog_users'
 
     id: so.Mapped[UUID] = so.mapped_column(default=uuid4, primary_key=True)
@@ -253,7 +253,7 @@ class BlogUser(db.Model):
         return f'BlogUser({self.id.hex})'
 
 
-class BlogSession(db.Model):
+class BlogSession(Model):
     __tablename__ = 'blog_sessions'
 
     id: so.Mapped[UUID] = so.mapped_column(default=uuid4, primary_key=True)
@@ -269,7 +269,7 @@ class BlogSession(db.Model):
         return f'BlogSession({self.id.hex})'
 
 
-class BlogView(db.Model):
+class BlogView(Model):
     __tablename__ = 'blog_views'
 
     id: so.Mapped[int] = so.mapped_column(primary_key=True)
@@ -286,7 +286,7 @@ class BlogView(db.Model):
         lazy='joined', innerjoin=True, back_populates='views')
 
 
-class Language(db.Model):
+class Language(Model):
     __tablename__ = 'languages'
 
     id: so.Mapped[int] = so.mapped_column(primary_key=True)
