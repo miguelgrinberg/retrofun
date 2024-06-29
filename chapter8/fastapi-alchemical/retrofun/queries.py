@@ -1,4 +1,5 @@
 import sqlalchemy as sa
+import sqlalchemy.orm as so
 from .models import Order, OrderItem, Customer, Product
 
 
@@ -6,11 +7,12 @@ def paginated_orders(start, length, sort, search):
     # base query to retrieve orders with their total amount
     total = sa.func.sum(OrderItem.quantity * OrderItem.unit_price).label(None)
     q = (
-        sa.select(Order, total)
+        sa.select(Order, total, Customer)
+            .options(so.selectinload(Order.customer))
             .join(Order.customer)
             .join(Order.order_items)
             .join(OrderItem.product)
-            .group_by(Order)
+            .group_by(Order, Customer)
             .distinct()
     )
 
