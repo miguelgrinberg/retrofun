@@ -318,7 +318,7 @@ name,address,phone,timestamp,product1,unit_price1,quantity1,product2,unit_price2
 "Bethany Bradford","04181 Tyler View, Lake Richard, IA 57284","964-219-4466","2022-06-21 00:18:52","Commodore 64",71.48,1,"",0.00,0,"",0.00,0
 "Sydney Bush","293 Norris Isle, East Jessica, NY 26773","+1-092-366-9092","2022-02-08 22:28:01","Amiga",84.24,1,"Apple II",52.90,1,"",0.00,0
 "George Drake","USCGC Washington, FPO AA 99609","+1-528-595-3006","2022-09-09 09:07:35","Commodore 64",75.32,1,"",0.00,0,"",0.00,0
-"Deanna Tran","72720 Vargas Burgs Suite 638, Port Benjamintown, NC 09086","001-313-291-1425","2022-01-19 09:11:04","Amiga",84.24,1,"Rabbit RX83",57.59,1,"",0.00,0
+"Deanna Tran","72720 Vargas Burgs Suite 638, Port Benjamintown, NC 09086","001-313-291-1425","2022-01-19 09:11:04","Amiga",84.24,1,"Rabbit RX83",57.59,1,"",0.00,0
 "Alicia Wagner","996 Bell Station, New Robertfort, MT 64245","528.662.7824","2022-11-24 14:22:37","Commodore 64",69.76,1,"",0.00,0,"",0.00,0
 "Edward Bryan","72787 Long Estates, Suarezfort, KS 82393","001-835-833-6549","2022-10-07 23:19:20","Amiga",84.24,1,"",0.00,0,"",0.00,0
 "Jason Schmitt","PSC 2231, Box 4244, APO AA 31266","120.715.2463","2022-01-28 17:10:00","Amiga",91.09,1,"",0.00,0,"",0.00,0
@@ -1715,7 +1715,7 @@ name,address,phone,timestamp,product1,unit_price1,quantity1,product2,unit_price2
 "Christopher Stewart","63242 Saunders Divide Apt. 307, West Troyberg, AL 51462","+1-489-025-7579","2022-11-08 17:26:10","Apple II",48.67,1,"",0.00,0,"",0.00,0
 "Michael Ford","188 Margaret Isle, East Michaelberg, OH 26196","(908)114-4242","2022-09-28 22:34:56","Amiga",84.24,1,"",0.00,0,"",0.00,0
 "Brian Whitaker","583 Donna Ports, South Sarahland, PR 86544","272-809-5754","2022-01-08 03:46:18","Apple II",52.90,1,"",0.00,0,"",0.00,0
-"Nicole Jones","22773 Vang Forest Apt. 839, East Oliviaburgh, AL 55933","762-805-7594","2022-04-05 14:38:31","Rabbit RX83",60.75,1,"",0.00,0,"",0.00,0
+"Nicole Jones","22773 Vang Forest Apt. 839, East Oliviaburgh, AL 55933","762-805-7594","2022-04-05 14:38:31","Rabbit RX83",60.75,1,"",0.00,0,"",0.00,0
 "Danielle Hughes","95456 Larry Prairie Suite 564, Lake Jason, CT 34520","+1-310-711-0300","2022-07-02 18:51:36","Amiga",84.24,1,"",0.00,0,"",0.00,0
 "Jonathan Harrington","6823 Acosta Street, Lake Samanthaborough, ND 98649","962-576-4157","2022-06-12 15:51:19","Apple II",52.90,1,"Commodore 64",74.65,1,"",0.00,0
 "Karen Bryant","3305 Sandoval Point, Brandiville, KS 57722","+1-858-027-2169","2022-12-18 03:32:45","Commodore 64",71.48,1,"",0.00,0,"",0.00,0
@@ -2011,7 +2011,7 @@ name,address,phone,timestamp,product1,unit_price1,quantity1,product2,unit_price2
 "Suzanne Holt","653 Hicks Mews Apt. 548, West Royfurt, NJ 60953","+1-432-845-7753","2022-07-01 18:20:26","Poly-1",93.21,1,"",0.00,0,"",0.00,0
 "Jeffrey Morris","75733 Smith Isle, Gatesborough, AS 37104","+1-316-750-9214","2022-12-11 22:50:12","Apple II",52.90,1,"",0.00,0,"",0.00,0
 "Jenna Cooper","17715 Jefferson Freeway Apt. 559, West Bethchester, SC 90239","(193)107-6499","2022-07-22 14:58:16","Apple II",52.90,1,"",0.00,0,"",0.00,0
-"Dave Bautista","835 David Trafficway, New John, AZ 55500","447-614-4736","2022-09-01 10:32:50","Commodore 64",71.48,1,"Rabbit RX83",60.75,1,"",0.00,0
+"Dave Bautista","835 David Trafficway, New John, AZ 55500","447-614-4736","2022-09-01 10:32:50","Commodore 64",71.48,1,"Rabbit RX83",60.75,1,"",0.00,0
 "David Edwards","4345 Hannah Dale Apt. 893, West Richard, FL 91138","6802263914","2022-06-10 05:25:57","Commodore 64",58.33,1,"",0.00,0,"",0.00,0
 "Christine Jones","PSC 8193, Box 6042, APO AA 87351","(844)332-2183","2022-03-11 23:33:38","Amiga",84.24,1,"Atari 1200XL",78.30,1,"Apple II",52.90,1
 "Debra Fisher","2782 Christopher Square, Fosterfurt, AK 86757","(194)525-8067","2022-03-30 10:26:09","ZX Spectrum",120.78,1,"",0.00,0,"",0.00,0
@@ -2022,7 +2022,7 @@ name,address,phone,timestamp,product1,unit_price1,quantity1,product2,unit_price2
 "Jenna Morgan","65993 Donna Summit Apt. 555, Sandraton, VT 58437","196.354.4540","2022-09-19 18:42:38","ZX Spectrum",130.06,1,"",0.00,0,"",0.00,0
 "Brandon Sanchez","1932 Christopher Island, Lake Sandrafurt, MA 72306","434-078-2574","2022-11-12 22:43:29","Amiga",84.24,1,"",0.00,0,"",0.00,0
 "Diana Bell","3682 Keith Station Apt. 931, South Cameronchester, WI 64372","761.068.3827","2022-05-07 04:04:30","Apple II",52.90,1,"",0.00,0,"",0.00,0
-"Laura Miller","1729 Smith Key Apt. 236, West Deanchester, KS 21966","+1-638-123-2897","2022-12-18 17:23:45","Rabbit RX83",60.75,1,"",0.00,0,"",0.00,0
+"Laura Miller","1729 Smith Key Apt. 236, West Deanchester, KS 21966","+1-638-123-2897","2022-12-18 17:23:45","Rabbit RX83",60.75,1,"",0.00,0,"",0.00,0
 "Frank Gamble","308 Mckinney Ville, Ballardfort, CA 90157","999.699.4011","2022-11-29 23:44:37","Amiga",84.24,1,"",0.00,0,"",0.00,0
 "Michael Jacobs","9045 Adam Parkways, Martinezburgh, SC 58614","(762)268-5312","2022-03-29 17:00:28","Amiga",84.24,1,"KC 87",72.41,1,"",0.00,0
 "David West","4200 Jason Fall, East Aprilmouth, GA 50107","7273368744","2022-05-04 07:15:59","ZX Spectrum",120.78,1,"Commodore 64",71.48,1,"Amiga",84.24,1
@@ -2598,7 +2598,7 @@ name,address,phone,timestamp,product1,unit_price1,quantity1,product2,unit_price2
 "Elizabeth Moreno","082 Carter Ville, Josephside, CA 68145","209.609.8540","2022-04-08 03:26:52","Commodore 64",85.62,1,"",0.00,0,"",0.00,0
 "Dennis Mcdonald","87442 Bryce Lake Apt. 264, Katherineshire, DE 03759","001-296-128-4501","2022-01-28 03:39:37","ZX Spectrum",128.72,1,"",0.00,0,"",0.00,0
 "Jacob Johnson","55392 Price Lake Apt. 146, Lake Matthewshire, DC 18658","946-839-4403","2022-05-09 20:24:51","Apple II",52.90,1,"",0.00,0,"",0.00,0
-"Scott Lutz","849 Tonya Ramp Apt. 329, North Erinborough, WY 49669","645.768.5838","2022-08-31 23:14:13","Rabbit RX83",60.75,1,"",0.00,0,"",0.00,0
+"Scott Lutz","849 Tonya Ramp Apt. 329, North Erinborough, WY 49669","645.768.5838","2022-08-31 23:14:13","Rabbit RX83",60.75,1,"",0.00,0,"",0.00,0
 "Robert Thomas","18521 Gill Court, Blanchardburgh, PW 26491","3887715801","2022-04-01 12:40:24","ZX Spectrum",120.78,1,"",0.00,0,"",0.00,0
 "Brian Mccormick","3360 Jefferson Isle, South Paulchester, DE 79283","(206)648-8862","2022-10-24 01:35:07","Commodore 64",71.48,1,"",0.00,0,"",0.00,0
 "Nicole Fox","55880 Jessica Mountains, Lake Derekhaven, MO 40120","585-679-7814","2022-04-29 02:18:43","Commodore 64",71.48,1,"",0.00,0,"",0.00,0
